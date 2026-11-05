@@ -1,0 +1,10 @@
+# Ignorar las contraseñas
+secrets/*.txt
+!secrets/.gitkeep
+
+# Ignorar carpetas de datos y logs
+data/
+*.log
+
+# Ignorar configuración del editor
+.vscode/
